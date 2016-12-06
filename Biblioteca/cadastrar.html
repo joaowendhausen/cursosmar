@@ -1,0 +1,53 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset= "utf-8">
+            <title>Biblioteca</title>
+            <link rel = "stylesheet" href = "C:\Users\Wendhausen\Desktop\Biblioteca\bootstrap\css\bootstrap.min.css">
+        </head>
+        <body>
+            <form action="form.php" method = "post" >
+               <div class= "form-group">
+                <label for= "nome">Nome</label>
+                <input type = "text" name = "nome" id = "nome" class = "form-control" placeholder="Digite seu nome" required autofocus tabeindex = "1">
+               </div>
+               <div class= "form-group">
+                <label for= "email">E-mail</label>
+                <input type = "email " name = "email" id = "email" class = "form-control" placeholder="Digite seu E-mail" required autofocus tabeindex = "2"> 
+               </div>
+               <div class= "form-group">
+                <label for= "confirmeemail">Confirmação de E-mail</label>
+                <input type = "email " name = "confirmacaoemail" id = "confirmacaoemail" class = "form-control" placeholder="Digite seu E-mail novamente" required autofocus tabeindex = "3">  
+               </div>
+               <div class= "form-group">
+                <label for= "nome">Registro Geral (RG)</label>
+                <input type = "text" name = "rg" id = "rg" class = "form-control" placeholder="Digite seu RG" required autofocus tabeindex = "4">
+               </div>
+               <div class= "form-group">
+                <label for= "senha">Cadastro de senha</label>
+                <input type = "password" name = "senha" id = "senha" class = "form-control" placeholder="Digite sua senha" required autofocus tabeindex = "5"> 
+               </div>
+               <div class= "form-group">
+                <label for= "senha">Confirmação de senha</label>
+                <input type = "password" name = "confirmesenha" id = "confirmesenha" class = "form-control" placeholder="Digite sua senha novamente" required autofocus tabeindex = "6"> 
+               </div>
+               
+               <div class= "form-group">
+                <label for= "Aluno">Selecione o aluno que é responsável</label>
+                <select name = "Aluno" name = "aluno" id = "aluno">
+                      <option value = "SP"> Sapo </option>
+                        <option value selected = "JO"> João</option>
+                        <option value = "MA"> Maria</option>
+                </select>
+               
+               </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">cadastrar</button>
+                </div>
+                
+            </form>
+            <script type="text/javascript" src ="C:\Users\Wendhausen\Desktop\Biblioteca\bootstrap\js\bootstrap.min.js">
+            </script>
+            
+        </body>
+    </html>

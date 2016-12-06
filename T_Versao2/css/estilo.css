@@ -1,0 +1,160 @@
+
+
+/*Posição do menu de navegação*/
+nav{
+	width: 300px;
+	height: 520px;
+	float: left;
+    }
+
+/*Retirar padrão do broswer margin 8 px*/	
+* {
+	margin:0;
+	padding:0;
+
+}
+
+
+/*Cor do cabeçalho, logo abaixo da URL*/
+header .header-black {
+    background-color:#34495e;
+    height: 50px;}
+
+
+/*Cor do cabeçalho, logo abaixo da URL*/	
+header  .abaixocor {
+	 background-color:#34495e;
+    height: 80px;}
+
+/*Container onde fica a parte do cadastro*/	
+.container {
+	width: 800px;
+	padding: 30px;
+	
+}
+
+
+/*Cor de navegacao*/
+nav {
+	background-color: #bdc3c7;
+}
+
+/*Seção, onde fica o cadastro*/
+section {
+    height: 836px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+	background-color: #ecf0f1;
+	float: left;
+	box-sizing: border-box;
+	
+		
+}
+
+/*Cor da tela*/
+body {
+background-color: #bdc3c7; 	
+}
+
+
+/*Parte do Osmar.Elinho*/
+.log {
+	margin-right: 5px;
+	margin: 5px;
+	float: right;
+	font-size:1.19em;
+	margin-right: 25px;
+	
+}
+
+
+/*Parte do Osmar.Elinho*/
+.agent {
+	float:right;
+	margin-right: 50px;
+	margin: 12px;
+	
+		
+}
+
+/*Tamanho dos icones de navegação*/
+.lognav {
+	margin-right: 5px;
+	margin: 5px;
+	float: right;
+	font-size:1.19em;
+	margin-right: 25px;
+	margin-top:8px
+
+	
+
+}
+
+/*icones de navegação sumiu*/
+li a span {
+	opacity: 0;
+	margin-left: 8px;
+	}
+
+
+/*icones de navegação apareceu :D*/
+ul li a:hover span{
+	opacity: 1;
+	font-size:1.19em;}
+
+
+/*Icone do sistema que vira quando coloca em cima o mouse*/
+.imgini:hover {
+	cursor:pointer;
+    transform: rotate(-30deg);
+}
+
+
+ul.caraca li {
+box-sizing: border-box;	
+}
+
+.cassada {
+	margin-right: 15px;
+	margin-left: 20px;
+}
+
+/*Configuração de tabela*/
+td {
+text-align: center;
+background-color: #ecf0f1;
+color: black;
+}
+
+tr {
+	background-color: #34495e;
+	color: #ecf0f1;
+	
+	
+}
+
+.exemplo {
+	opacity: 0.4;
+}
+
+
+.img1234 {
+	font-size:5.19em;
+	float:right;
+}	
+
+
+section .venda{
+	section {
+    height: 736px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+	background-color: #ecf0f1;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+

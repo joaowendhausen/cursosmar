@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+	 <head>
+            <meta charset= "utf-8">
+            <title>Shoptime</title>
+            <link rel = "stylesheet" href = "lib\bootstrap\css\bootstrap.min.css">
+			 <link rel = "stylesheet" href = "css\estilo.css">
+			<link REL="SHORTCUT ICON" HREF="img\system4.png">
+
+        </head>
+	<body>
+		     <script type="text/javascript" src ="lib\bootstrap\js\bootstrap.min.js"></script>
+		     <script type="text/javascript" src ="lib\jquery\jquery-3.1.1.min.js"></script>
+                
+			<header>
+                
+                <div class ="header-black">	
+                     	<img class="imgini"src= "img\system4.png">
+						<span class = log>
+				<div class="glyphicon glyphicon-user"><b> Osmar.Elinho </b></div>
+			</span>
+								</div>
+				<div class="abaixocor">
+				</div>
+		</div>
+			</div>				
+				</div>
+	
+		
+		<nav class =  "navbar" role="navigation">
+			<ul class="nav nav-pills nav-stacked">
+				
+				<li role="presentation"><a href="index.html"><b>Menu principal</b> <span class="glyphicon glyphicon-home"</span></a></li>
+				<li role="presentation"><a href="cadastrodecliente.html"><b>Cadastro de Clientes</b><span class="glyphicon glyphicon-plus"</span></a></li>
+				<li role="presentation" "><a href="cadastrodeprodutos.html"><b>Cadastro de produtos</b><span class="glyphicon glyphicon-plus"</span></a></li>
+				<li role="presentationclass= "active"><a href="consultacliente.html"><b>Consultar no Sistema</b><span class="glyphicon glyphicon-user"</span></a></li>
+				<li role="presentation"class= "active"><a href="venda.html"><b>Venda</b><span class="glyphicon glyphicon-usd"</span></a>
+				<li role="presentation"><a href="http://www.google.com"><b>Sair</b><span class="glyphicon glyphicon-remove-circle"</span></a></li>
+			</ul>	
+		</nav>
+		
+		<div class="form-group">
+			
+	<section class="venda" id="venda">		
+		<div class="container">
+			<div class = "letreiro"><h3><b>Selecionando Produto</b></h3></div>
+
+<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Selecionar Cliente">
+  </div>
+  <button type="submit" class="btn btn-primary">Pesquisar</button>
+</form>
+		<table border="1" class="table table-condensed classecliente" id="cliente">
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Nome</th>
+      <th>CPF</th>
+	  <th>Email</th>
+	  <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> 1²</td>
+      <td>Exemplo1</td>
+      <td>09763421114</td>
+	  <td>exemplo@exemplo.com</td>
+	  <td>
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 
+</td>
+    </tr>
+    
+  </tbody>
+</table>
+		
+		<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Selecionar Produto">
+  </div>
+  <button type="submit" class="btn btn-primary">Pesquisar</button>
+</form>
+		<table border="1" class="table table-condensed classeproduto" id="produto">
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Descrição do Produto</th>
+      <th>Valor</th>
+	  <th>Quantidade em estoque</th>
+	  <th>Quantidade Selecionada</th>
+	  <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> 1²</td>
+      <td>Exemplo1</td>
+      <td>50.12</td>
+	  <td>54</td>
+	  <td>23</td>
+	  <td>			<label>
+      <input type="checkbox">
+    </label></td>
+	  
+    </tr>
+    
+  </tbody>
+</table>
+		<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Quantidade do produto">
+  </div>
+  <button type="submit" class="btn btn-success">Enviar para o carrinho</button>
+</form>
+		
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		
+		<span class="glyphicon glyphicon-shopping-cart img1234"></span>
+	
+		<h3><b> Carrinho de Compra </b></h3>
+		</br>
+		<table border="1" class="table table-condensed carrinho" id="carrinho">
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Descrição do Produto</th>
+      <th>Valor</th>
+	  <th>Quantidade</th>
+	  <th>Cliente</th>
+	  <th> CPF</th>
+	  
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="exemplo">
+      <td> 1²</td>
+      <td>Exemplo1</td>
+      <td>50.12</td>
+	  <td>54</td>
+	  <td>João Souza</td>
+	  <td>09766643421</td>			
+    </tr>
+    
+
+  </tbody>
+</table>
+		
+		    <button type="button" class="btn btn-success">Salvar</button>
+    <button type="button" class="btn btn-warning">Limpar Carrinho</button>
+
+		</section>
+	</header>
+	
+	
+		
+		
+
+	
+		
+		
+		</div>
+		
+			
+				
+			
+					
+					
+			
+
+
+
+	</body>
+
+	</html>
